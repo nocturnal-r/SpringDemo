@@ -11,7 +11,7 @@ public class WelcomeController {
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
 	public String welcomeAdmin(ModelMap model) {
 
-		model.addAttribute("message", "Spring Security - ROLE_ADMIN");
+		model.addAttribute("message", "Spring Security-ROLE_ADMIN");
 		return "hello";
 
 	}
